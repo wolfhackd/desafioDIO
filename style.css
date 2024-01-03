@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50)0%, rgba(51, 168, 219, 0.15)50%, rgba(0, 0, 0, 0.08)100%), url(./assets/images/banner.png) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid  #31A8DD;
+}
+
+.banner-content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 56px;
+    width: 510px;
+    height: 393px;
+}
+
+.logo {
+    background: rgba(0, 0, 0, 0.20);
+    border-radius: 260px;
+    background-size: 268px;
+    padding: 27px 10px 27px 10px;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    line-height: normal;
+    word-break: keep-all;
+}
+
+.banner-content button {
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 19px 91px;
+    border: #31A8DD 1px solid;
+    color: #31A8DD;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.banner-content button:hover {
+    background-color: #31A8DD;
+    color: white;
+}
+
+main {
+    border: 0 1px 1px 1px solid  #31A8DD;    
+}
+
+#course-content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 110px 229px 110px 324px;
+    border-bottom: 1px solid  #31A8DD;
+}
+
+#course-content h2 {
+    color: #33A8DB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+}
+
+#course-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 24px;
+    width: 792px;
+}
+
+.module {
+    color: #FFF;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 57px;
+    border-bottom: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    padding: 16px 127px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.module span {
+    color: #33A8DB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#transform-world {
+    background: url(./assets/images/woman-code.png);
+    height: 363px;
+    background-size: 1440px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#transform-world p {
+    width: 244px;
+    color: #fff;
+    text-transform: lowercase;
+    font-style: normal;
+    font-family: 'Raleway';
+    text-shadow: 3px 2px #33A8DB;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 198px;
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 760px;
+    padding-top: 80px;
+    margin-bottom: 32px;
+}
+
+#professional-challenges p {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 792px;
+    margin-top: 40px;
+    margin-bottom: 91px;
+}
+
+footer {
+    border-top: 1px solid #31A8DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dio-logo {
+    padding-top: 59px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: linear-gradient(#33A8DB00, #33a9db21, #33a9db7d, #33A8DB);
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 38px;
+}
+
+footer a {
+    color: #33A8DB;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
